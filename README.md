@@ -11,6 +11,7 @@ Pixels of images from the dataset originally have values from 0 to 255. They are
 (I) Manually constructed CNN model
 -------------------------------------------------
 ipynb: 8_classification_DropOut_only.ipynb
+
 model: 8Class_3Conv2Den_dataAugm_20210219_020509_acc95.0.h5
 
 In the construction of the CNN model, the number of convolution layers has been tested from two layers and four layers for the best accuracy and least overfitting. Eventually three convolution layers was chosen. 
@@ -38,6 +39,7 @@ The accuracy obtained on the training set is 99.7%, the validation set is 96.2% 
 (II) Transfer learning model
 -------------------------------------------------
 ipynb: 8_classification_VGG.ipynb
+
 model: 8Class_VGG_dataAugm_20210225_154226_acc97.5.h5
 
 Since the training set is rather small (only 100 images for each class), using some renowned models well trained on similar image classification problems can much relieve the overfitting problem and lead to a well generalized model in a relatively short training time.
