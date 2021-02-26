@@ -4,6 +4,12 @@ There are 21 classes of different land use images in the dataset. All images has
 
 The dataset can be downloaded from: http://weegee.vision.ucmerced.edu/datasets/landuse.html
 
+Examples of predictions of classifications:
+
+<img src="./examples_of_predictions/mobilehomepark.png" width="400">
+<img src="./examples_of_predictions/forest.png" width="400">
+<img src="./examples_of_predictions/parkinglot.png" width="400">
+
 In this project, two CNN models were constructed to classify the images – one is manually constructed and the other is from transfer learning.
 
 Pixels of images from the dataset originally have values from 0 to 255. They are normalized to 0 to 1 for the inputs. Also, the sizes of the images are reduced from 256x256 to 64x64 (or 224x224 in the transfer learning model) in order to focus only on the more important features and reduce the computational resources and time needed to train the models.
